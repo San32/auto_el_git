@@ -1,0 +1,23 @@
+2023-02-03 11:07:54,235 - INFO - [run:407] - run clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-03 11:07:54,238 - INFO - [run:81] - thread start
+2023-02-03 11:07:55,254 - INFO - [play:411] - play clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-03 11:07:57,290 - INFO - [run:83] - connecting rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-03 11:07:58,327 - INFO - [run:139] -  cap.isOpened() try 예외가 발생했습니다.
+2023-02-03 11:08:02,295 - INFO - [run:156] - connect OK rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-03 11:08:02,312 - INFO - [run:139] -  cap.isOpened() try 예외가 발생했습니다.
+2023-02-03 11:08:06,300 - INFO - [run:156] - connect OK rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-03 11:08:06,317 - INFO - [run:139] -  cap.isOpened() try 예외가 발생했습니다.
+2023-02-03 11:08:10,294 - INFO - [run:156] - connect OK rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-03 11:08:10,310 - INFO - [run:139] -  cap.isOpened() try 예외가 발생했습니다.
+2023-02-03 11:08:16,632 - INFO - [run:407] - run clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-03 11:08:16,632 - INFO - [run:81] - thread start
+2023-02-03 11:08:19,293 - INFO - [run:83] - connecting rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-03 11:08:22,235 - INFO - [play:411] - play clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-03 15:54:01,301 - INFO - [run:407] - run clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-03 15:54:01,302 - INFO - [run:81] - thread start
+2023-02-03 15:54:05,249 - INFO - [run:83] - connecting rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-03 15:54:30,727 - INFO - [play:411] - play clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-03 15:54:35,762 - INFO - [detect:425] - detect clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-03 15:54:37,344 - INFO - [detect:425] - detect clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-03 15:54:38,516 - INFO - [detect:425] - detect clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-03 15:54:41,898 - INFO - [detect:425] - detect clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
