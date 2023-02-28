@@ -21,3 +21,42 @@
 2023-02-03 15:54:37,344 - INFO - [detect:425] - detect clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
 2023-02-03 15:54:38,516 - INFO - [detect:425] - detect clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
 2023-02-03 15:54:41,898 - INFO - [detect:425] - detect clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-15 13:31:56,857 - INFO - [run:407] - run clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-15 13:31:56,858 - INFO - [run:81] - thread start
+2023-02-15 13:31:59,726 - INFO - [run:83] - connecting rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-15 13:32:03,203 - INFO - [play:411] - play clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-15 13:32:06,535 - INFO - [stop:415] - stop clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-15 13:32:13,427 - INFO - [play:411] - play clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-20 15:30:29,638 - INFO - [run:407] - run clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-20 15:30:29,642 - INFO - [run:81] - thread start
+2023-02-20 15:30:32,854 - INFO - [run:83] - connecting rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-20 15:30:38,558 - INFO - [play:411] - play clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-20 15:31:16,373 - INFO - [detect:425] - detect clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-20 17:39:33,555 - INFO - [run:325] - run clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-20 17:39:33,555 - INFO - [run:80] - thread start
+2023-02-20 17:39:36,664 - INFO - [run:82] - connecting rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-20 17:39:41,847 - INFO - [play:329] - play clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-20 17:45:54,237 - INFO - [run:325] - run clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-20 17:45:54,238 - INFO - [run:80] - thread start
+2023-02-20 17:45:56,657 - INFO - [run:82] - connecting rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-20 17:45:59,901 - INFO - [play:329] - play clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-20 17:51:44,895 - INFO - [run:325] - run clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-20 17:51:44,895 - INFO - [run:80] - thread start
+2023-02-20 17:51:48,653 - INFO - [run:82] - connecting rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-20 17:51:51,373 - INFO - [play:329] - play clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-20 18:01:22,613 - INFO - [run:326] - run clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-20 18:01:22,614 - INFO - [run:80] - thread start
+2023-02-20 18:01:26,642 - INFO - [run:82] - connecting rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-20 18:02:46,978 - INFO - [run:326] - run clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-20 18:02:46,979 - INFO - [run:80] - thread start
+2023-02-20 18:02:50,635 - INFO - [run:82] - connecting rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-20 18:05:15,872 - INFO - [run:326] - run clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-20 18:05:15,873 - INFO - [run:80] - thread start
+2023-02-20 18:05:18,631 - INFO - [run:82] - connecting rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-28 08:46:26,904 - INFO - [run:373] - run clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-28 08:46:26,907 - INFO - [run:80] - thread start
+2023-02-28 08:46:29,252 - INFO - [run:82] - connecting rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-28 08:47:31,362 - INFO - [run:373] - run clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp
+2023-02-28 08:47:31,363 - INFO - [run:80] - thread start
+2023-02-28 08:47:35,253 - INFO - [run:82] - connecting rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp...
+2023-02-28 08:47:38,057 - INFO - [play:377] - play clicked : rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp

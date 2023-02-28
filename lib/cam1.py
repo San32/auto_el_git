@@ -253,6 +253,53 @@ class VideoThread(QThread):
                 label_list.append(str)
         return frame , label_list
 
+class ImgFrame(QLabel):
+    ResizeSignal = pyqtSignal(int)
+    def __init__(self, width,height):
+        super().__init__()  
+        self.setSizePolicy(QSizePolicy.Ignored, QSizePolicy.Ignored)
+        self.setGeometry(0,0,width, height)
+        self.setFrameShape(QFrame.Box)
+        self.setLineWidth(3)
+        self.setText("")
+        front_image = '/home/comm/data/images/001410389_wheelchair_56.jpg'
+
+        self.pix = QPixmap(front_image)
+
+        self.setPixmap(self.pix)
+        self.installEventFilter(self)
+
+    # def eventFilter(self, obj, event):
+    #     if (event.type() == QEvent.Resize):
+    #         if not self.pix.isNull():                
+    #             pixmap = self.pix.scaled(self.width(), self.height(),Qt.KeepAspectRatio)                  
+    #             if pixmap.width()!=self.width() or pixmap.height()!=self.height():                                        
+    #                 self.ResizeSignal.emit(1)                    
+    #     return super().eventFilter(obj, event)
+    
+    def eventFilter(self, obj, event):
+        if (event.type() == QEvent.Resize):
+            # print( 'Inside event Filter')
+            print(f"size : {self.width()}, {self.height()}")
+            # self.ResizeSignal.emit(1)
+        return super().eventFilter(obj, event)
+
+    def paintEvent(self, event):        
+        if not self.pix.isNull(): 
+            size = self.size()
+            painter = QPainter(self)
+
+            point = QPoint(0,0)
+            # scaledPix = self.pix.scaled(size, Qt.KeepAspectRatio, transformMode = Qt.FastTransformation)
+            scaledPix = self.pix.scaled(size, Qt.IgnoreAspectRatio, transformMode = Qt.FastTransformation)
+            # start painting the label from left upper corner
+            # point.setX((size.width() - scaledPix.width())/2)
+            # point.setY((size.height() - scaledPix.height())/2)
+            painter.drawPixmap(point,scaledPix)
+
+    def changePixmap(self, img):
+        self.pix = img
+        self.repaint() 
             
   
 class CamPanel(QWidget):
@@ -365,7 +412,7 @@ class CamPanel(QWidget):
         bytes_per_line = ch * w
         convert_to_Qt_format = QImage(rgb_image.data, w, h, bytes_per_line, QImage.Format_RGB888)
         # p = convert_to_Qt_format.scaled(self.w_pix, self.h_pix, Qt.KeepAspectRatio)
-        p = convert_to_Qt_format.scaled(w, h, Qt.KeepAspectRatio)
+        p = convert_to_Qt_format.scaled(w, h, Qt.IgnoreAspectRatio, transformMode = Qt.FastTransformation)
         return QPixmap.fromImage(p)
 
     @pyqtSlot(str)
